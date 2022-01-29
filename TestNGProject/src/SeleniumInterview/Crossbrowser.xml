@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<Suite name="CrossbrowserTesting">
+
+		<Tests name="Test1">
+       <Parameters name="browser" value="Chrome" />
+				<Classes>
+				<Class name="Seleniuminterview.CrossbrowserUsingXML" />				
+				</Classes>	
+		</Tests>
+
+
+<Tests name="Test2">
+		<Parameters name="browser" value="Firefox" />
+				<Classes>
+				<Class name="Seleniuminterview.CrossbrowserUsingXML" />
+				</Classes>	
+
+		</Tests>
+
+</Suite>

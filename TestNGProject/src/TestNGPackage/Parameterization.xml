@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suit name = "TestParameter">
+
+   <test name = "Parametertest" />
+   
+   <parameter name="a" value="sana"></parameter>
+   
+   <classes>
+   <class name="TestNGPackage.Parametersnew"></class>
+   
+   </classes>
+   
+   
+</suit>
